@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.34de6062.chunk.css",
-    "main.js": "./static/js/main.e2c88014.chunk.js",
-    "main.js.map": "./static/js/main.e2c88014.chunk.js.map",
-    "runtime~main.js": "./static/js/runtime~main.8e053bce.js",
-    "runtime~main.js.map": "./static/js/runtime~main.8e053bce.js.map",
-    "static/js/2.63b4584b.chunk.js": "./static/js/2.63b4584b.chunk.js",
-    "static/js/2.63b4584b.chunk.js.map": "./static/js/2.63b4584b.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.51601f0d815f647f74bcf022dd0f5c18.js": "./precache-manifest.51601f0d815f647f74bcf022dd0f5c18.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "./static/css/main.34de6062.chunk.css.map"
+    "main.css": "/react-headless-wp/static/css/main.34de6062.chunk.css",
+    "main.js": "/react-headless-wp/static/js/main.f000e8cf.chunk.js",
+    "main.js.map": "/react-headless-wp/static/js/main.f000e8cf.chunk.js.map",
+    "runtime~main.js": "/react-headless-wp/static/js/runtime~main.72511e66.js",
+    "runtime~main.js.map": "/react-headless-wp/static/js/runtime~main.72511e66.js.map",
+    "static/js/2.63b4584b.chunk.js": "/react-headless-wp/static/js/2.63b4584b.chunk.js",
+    "static/js/2.63b4584b.chunk.js.map": "/react-headless-wp/static/js/2.63b4584b.chunk.js.map",
+    "index.html": "/react-headless-wp/index.html",
+    "precache-manifest.35f9a730517793e2f55906dae21d8a08.js": "/react-headless-wp/precache-manifest.35f9a730517793e2f55906dae21d8a08.js",
+    "service-worker.js": "/react-headless-wp/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/react-headless-wp/static/css/main.34de6062.chunk.css.map"
   }
 }
