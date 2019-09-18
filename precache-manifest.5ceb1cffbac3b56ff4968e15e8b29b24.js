@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed0a8b54d5eb59590b4c368825ccfe02",
+    "revision": "e04bcdd1f2e5edc0e0f723a0cf86fd3d",
     "url": "/react-headless-wp/index.html"
   },
   {
-    "revision": "fb0be7b642291e32e2b2",
+    "revision": "10a2a3fed8e9550b3f86",
     "url": "/react-headless-wp/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-headless-wp/static/js/2.63b4584b.chunk.js"
   },
   {
-    "revision": "fb0be7b642291e32e2b2",
-    "url": "/react-headless-wp/static/js/main.9092a69d.chunk.js"
+    "revision": "10a2a3fed8e9550b3f86",
+    "url": "/react-headless-wp/static/js/main.c27358bd.chunk.js"
   },
   {
     "revision": "2c944a5933b61b2c8e02",
