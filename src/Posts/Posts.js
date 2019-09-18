@@ -29,7 +29,7 @@ const Posts = () => (
                           return (
                             <div key={key}>
                               <h3>{post.node.title}</h3>
-                              <Link to={`/post/${post.node.slug}`}>Read More</Link>
+                              <Link to={`/react-headless-wp/post/${post.node.slug}`}>Read More</Link>
                             </div>
                           );
                         })

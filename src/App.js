@@ -18,9 +18,9 @@ function App() {
             <h1>Headless WordPress and React Test</h1>
           </header>
           <div className="content">
-            <Route exact path="/" component={Posts} />
-            <Route path="/posts" component={Posts} />
-            <Route path="/post/:slug" component={Post} />
+            <Route exact path="/react-headless-wp/" component={Posts} />
+            <Route path="/react-headless-wp/posts" component={Posts} />
+            <Route path="/react-headless-wp/post/:slug" component={Post} />
           </div>
         </div>
       </BrowserRouter>
