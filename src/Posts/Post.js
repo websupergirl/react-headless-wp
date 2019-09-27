@@ -12,7 +12,7 @@ class Post extends React.PureComponent {
 
     return (
       <div>
-        <h2>{props.data.post.title}</h2>
+        <h2>&quot;{props.data.post.title}&quot; by {props.data.post.author.name}</h2>
         <div dangerouslySetInnerHTML={{__html: props.data.post.content}} />
       </div>
     );
@@ -25,6 +25,9 @@ const GetPostBySlug = gql`
             title
             slug
             content
+            author {
+              name
+            }
         }
     }
 `;

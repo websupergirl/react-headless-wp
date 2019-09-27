@@ -3,14 +3,15 @@ import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import { Link } from 'react-router-dom';
 
-const Posts = () => (
+const Videos = () => (
   <Query query={gql`
     {
-        posts {
+        videos {
             edges {
                 node {
                     title
                     slug
+                    content
                     author {
                       name
                     }
@@ -27,15 +28,12 @@ const Posts = () => (
               }
               return (
                 <div>
-                <h3>Or would you like to watch some videos?</h3>
-                <Link to={`/videos/`}>Sure, go with videos.</Link>
-                <hr></hr>
                   {
-                        data.posts.edges.map((post, key) => {
+                        data.videos.edges.map((video, key) => {
                           return (
                             <div key={key}>
-                              <h3>&quot;{post.node.title}&quot; by {post.node.author.name}</h3>
-                              <Link to={`/post/${post.node.slug}`}>Read More</Link>
+                              <h3>&quot;{video.node.title}&quot; by {video.node.author.name}</h3>
+                              <div dangerouslySetInnerHTML={{__html: video.node.content}} />
                             </div>
                           );
                         })
@@ -49,4 +47,4 @@ const Posts = () => (
 
 );
 
-export default Posts;
+export default Videos;

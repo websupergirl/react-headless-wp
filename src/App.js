@@ -1,9 +1,10 @@
 import React from 'react';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Posts from './Posts/Posts';
 import Post from './Posts/Post';
+import Videos from './Videos/Videos';
 
 const client = new ApolloClient({
   uri: 'https://headless.thedevdrop.com/graphql',
@@ -12,18 +13,19 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <BrowserRouter>
+      <HashRouter basename="/">
         <div>
           <header>
-            <h1>Headless WordPress and React Test</h1>
+            <h1>Headless WordPress and React Test with CPTs</h1>
           </header>
           <div className="content">
-            <Route exact path="/react-headless-wp/" component={Posts} />
-            <Route path="/react-headless-wp/posts" component={Posts} />
-            <Route path="/react-headless-wp/post/:slug" component={Post} />
+            <Route exact path="/" component={Posts} />
+            <Route path="/posts" component={Posts} />
+            <Route path="/post/:slug" component={Post} />
+            <Route path="/videos" component={Videos} />
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </ApolloProvider>
   );
 }
