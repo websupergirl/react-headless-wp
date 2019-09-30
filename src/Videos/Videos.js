@@ -11,7 +11,6 @@ const Videos = () => (
                 node {
                     title
                     slug
-                    content
                     author {
                       name
                     }
@@ -28,16 +27,19 @@ const Videos = () => (
               }
               return (
                 <div>
+                <h1>Enjoy some videos!</h1>
                   {
-                        data.videos.edges.map((video, key) => {
+                        data.videos.edges.map((post, key) => {
                           return (
                             <div key={key}>
-                              <h3>&quot;{video.node.title}&quot; by {video.node.author.name}</h3>
-                              <div dangerouslySetInnerHTML={{__html: video.node.content}} />
+                              <h3>&quot;{post.node.title}&quot; by {post.node.author.name}</h3>
+                              <Link to={`/video/${post.node.slug}`}>Watch Video</Link>
                             </div>
                           );
                         })
                         }
+                <hr></hr>
+                <Link to={`/`}>Return to all posts.</Link>
                 </div>
               );
             }

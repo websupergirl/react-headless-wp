@@ -27,7 +27,7 @@ const Posts = () => (
               }
               return (
                 <div>
-                <h3>Or would you like to watch some videos?</h3>
+                <h3>Wait! Would you like to watch some videos instead?</h3>
                 <Link to={`/videos/`}>Sure, go with videos.</Link>
                 <hr></hr>
                   {

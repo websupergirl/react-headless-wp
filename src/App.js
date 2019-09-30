@@ -5,6 +5,7 @@ import { HashRouter, Route } from 'react-router-dom';
 import Posts from './Posts/Posts';
 import Post from './Posts/Post';
 import Videos from './Videos/Videos';
+import Video from './Videos/Video';
 
 const client = new ApolloClient({
   uri: 'https://headless.thedevdrop.com/graphql',
@@ -13,7 +14,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-      <HashRouter basename="/">
+    <HashRouter basename="/">
         <div>
           <header>
             <h1>Headless WordPress and React Test with CPTs</h1>
@@ -23,6 +24,7 @@ function App() {
             <Route path="/posts" component={Posts} />
             <Route path="/post/:slug" component={Post} />
             <Route path="/videos" component={Videos} />
+            <Route path="/video/:slug" component={Video} />
           </div>
         </div>
       </HashRouter>
