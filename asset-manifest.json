@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-headless-wp/static/css/main.34de6062.chunk.css",
-    "main.js": "/react-headless-wp/static/js/main.e4e63fc5.chunk.js",
-    "main.js.map": "/react-headless-wp/static/js/main.e4e63fc5.chunk.js.map",
+    "main.js": "/react-headless-wp/static/js/main.493ef1d0.chunk.js",
+    "main.js.map": "/react-headless-wp/static/js/main.493ef1d0.chunk.js.map",
     "runtime~main.js": "/react-headless-wp/static/js/runtime~main.72511e66.js",
     "runtime~main.js.map": "/react-headless-wp/static/js/runtime~main.72511e66.js.map",
-    "static/js/2.9800b8a1.chunk.js": "/react-headless-wp/static/js/2.9800b8a1.chunk.js",
-    "static/js/2.9800b8a1.chunk.js.map": "/react-headless-wp/static/js/2.9800b8a1.chunk.js.map",
+    "static/js/2.cb283b30.chunk.js": "/react-headless-wp/static/js/2.cb283b30.chunk.js",
+    "static/js/2.cb283b30.chunk.js.map": "/react-headless-wp/static/js/2.cb283b30.chunk.js.map",
     "index.html": "/react-headless-wp/index.html",
-    "precache-manifest.23e1c02dc61d1171025870653efbbf44.js": "/react-headless-wp/precache-manifest.23e1c02dc61d1171025870653efbbf44.js",
+    "precache-manifest.233df796f1446bf6923eebbf09c34af2.js": "/react-headless-wp/precache-manifest.233df796f1446bf6923eebbf09c34af2.js",
     "service-worker.js": "/react-headless-wp/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/react-headless-wp/static/css/main.34de6062.chunk.css.map"
   }
